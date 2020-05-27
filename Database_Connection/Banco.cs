@@ -41,16 +41,18 @@ namespace Database_Connection
         //Retorna o DataSet
         public MySqlDataReader dataSet(string query){
             try{
-
-                objCon = openDatabase();
-                cmd.CommandText = query;
-                cmd.CommandType = CommandType.Text;
-                cmd.Connection = objCon;
+                //se banco não estiver aberto
+                
+                    objCon = openDatabase();
+                    cmd.CommandText = query;
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Connection = objCon;
+                
 
                 return cmd.ExecuteReader();
 
-
-            }catch(Exception e){
+            }
+            catch(Exception e){
                 throw e;
             }
         }

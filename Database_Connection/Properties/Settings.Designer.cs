@@ -26,7 +26,7 @@ namespace Database_Connection.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost; user id=root ;password=; database=banco_cs")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost; user id=root ;password=; database=banco_cs; SslMode=none")]
         public string ConexaoMysql {
             get {
                 return ((string)(this["ConexaoMysql"]));

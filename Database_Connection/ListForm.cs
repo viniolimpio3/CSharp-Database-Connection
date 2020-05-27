@@ -26,6 +26,7 @@ namespace Database_Connection
         private void ListForm_Load(object sender, EventArgs e)
         {
             query.Append("select * from tabprod");
+
             objDados = db.dataSet(query.ToString());
 
             while (objDados.Read()){
