@@ -1,0 +1,5 @@
+C:\Users\vinio\source\repos\Database_Connection\Database_Connection\obj\Debug\Database_Connection.csprojAssemblyReference.cache
+C:\Users\vinio\source\repos\Database_Connection\Database_Connection\obj\Debug\Database_Connection.ListForm.resources
+C:\Users\vinio\source\repos\Database_Connection\Database_Connection\obj\Debug\Database_Connection.Properties.Resources.resources
+C:\Users\vinio\source\repos\Database_Connection\Database_Connection\obj\Debug\Database_Connection.csproj.GenerateResource.cache
+C:\Users\vinio\source\repos\Database_Connection\Database_Connection\obj\Debug\Database_Connection.csproj.CoreCompileInputs.cache
